@@ -1,0 +1,65 @@
+# OS X Config
+
+- On first boot
+	- Create admin user
+	- Complete setup as directed, opting out whenever possible (e.g. no location services, etc)
+	- Optionally, perform all Software Updates
+- Drag unneeded icons from Finder dock
+- `System Preferences \ Desktop & Screen Saver \ Desktop`
+	- Set desired background
+- `System Preferences \ Desktop & Screen Saver \ Screen Saver`
+	- Start screen saver = Never
+- `System Preferences \ Dock`
+	- Check "Automatically hide and show Dock"
+- `System Preferences \ Mission Control`
+	- For apps stretching multiple screens, uncheck "Displays have separate Spaces"
+- `System Preferences \ Security & Privacy \ General`
+	- Click the lock to make changes, enter admin password
+	- Under "Allow apps downloaded from:" select "Anywhere"
+	- Click Advanced...
+	- Check Disable remote control infrared receiver
+- `System Preferences \ Security & Privacy \ Privacy \ Location Services`
+	- Uncheck "Enable location services"
+- `System Preferences \ Notifications`
+	- Select each item on left, for each, disable all on right
+- `System Preferences \ CDs & DVDs` (if available)
+	- Set all to ignore
+- `System Preferences \ Energy Saver`
+	- Computer sleep = Never
+	- Display sleep = Never
+	- Uncheck "Put hard disks to sleep when possible"
+	- Check "Start up automatically after a power failure"
+	- Click "Schedule..." to configure automatic shutdown/startup
+- `System Preferences \ Mouse`
+	- Uncheck Scroll direction: natural
+- `System Preferences \ Sound`
+	- Set desired volume, or mute
+	- Uncheck "Show volume in menu bar"
+- `System Preferences \ Network \ Ethernet \ Advanced \ 802.1x`
+	- Uncheck Enable automatic connection
+- `System Preferences \ Network \ Wi-Fi`
+	- Turn Wi-Fi Off if unneeded
+	- Uncheck Show Wi-Fi status in menu bar
+- `System Preferences \ Bluetooth`
+	- Click "Turn Bluetooth Off"
+	- Uncheck "Show Bluetooth status in menu bar"
+	- Click "Advanced...", uncheck all
+- `System Preferences \ Sharing`
+	- Set Computer Name
+	- Check Remote Login
+	- Check Remote Management, then check all in popup
+- `System Preferences \ Users & Groups`
+	- Create required users
+	- For autostart, in Login Options, set Automatic Login to the desired user
+- `System Preferences \ Users & Groups \ Guest User`
+	- Uncheck Allow guests to connect to shared folders
+- `System Preferences \ App Store`
+	- Uncheck "Automatically check for updates"
+- Reboot the computer, and uncheck "Reopen windows when logging back in"
+
+If the computer has LogMeIn installed:
+
+- Click LogMeIn client icon in OS X menu bar
+- Click "LogMeIn Control Panel", then "Options", then "Preferences"
+- Uncheck "Lock when connection has been lost"
+- Uncheck "Lock when connection has been timed out"

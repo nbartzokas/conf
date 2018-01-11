@@ -1,0 +1,9 @@
+# For use with pssh
+# Lines in the host file are of the form [user@]host[:port] and 
+# can include blank lines and comments (lines beginning with "#"). 
+# If multiple host files are given (the -h option is used more 
+# than once), then pssh behaves as though these files were 
+# concatenated together. If a host is specified multiple times, 
+# then pssh will connect the given number of times.
+
+#user@host:port

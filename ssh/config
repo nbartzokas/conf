@@ -1,0 +1,12 @@
+# Append this to ~/.ssh/config
+
+# Host *.hostname-or-ip-pattern
+#   User lab
+#   HostName %h.com                                 # real hostname; %h = cl specced value of Host
+#   CheckHostIP no                                  # if IP changes frequently
+#   StrictHostKeyChecking no                        # yes = never add keys; no = auto add keys; ask = default
+#   UserKnownHostsFile /dev/null                    # if MAC changes, e.g. multiple hosts per IP
+#   IdentityFile ~/.ssh/id_rsa
+#   IdentitiesOnly yes                              # offer only specced identity, none from ssh-agent etc
+#   LocalForward [bind_address:]port host:hostport  # forwards port to hostport, useful for reverse proxy
+#   ServerAliveInterval 120                         # prevent disconnect

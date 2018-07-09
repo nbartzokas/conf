@@ -5,7 +5,16 @@ Great reference info here:
 - [developer.apple.com](https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man5/launchd.plist.5.html)
 - [launchd.info](http://launchd.info/)
 
-##### Breakdown
+### Usage
+
+Software runs differently depending on where you place the launchd .plist file:
+
+- `~/Library/LaunchAgents/` launches an app as a user
+- `~/Library/LaunchDaemons/` launches a service as a user
+- `/Library/LaunchAgents/` launches an app as an admin
+- `/Library/LaunchDaemons/` launches a service as an admin
+
+### Configs
 
 Label of the app. Every .plist on a machine needs a different Label. Multiple .plists with the same Label won't start.
 

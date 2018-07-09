@@ -4,10 +4,10 @@
 <dict>
 
     <key>Label</key>
-    <string>com.rockwellgroup.LAB</string>
+    <string>com.COMPANY.PROJECT</string>
 
     <key>Program</key>
-    <string>/Applications/LAB.app/Contents/MacOS/Electron</string>
+    <string>/Applications/PROJECT.app/Contents/MacOS/Electron</string>
 
     <key>RunAtLoad</key>
     <true/>
@@ -19,9 +19,9 @@
     </dict>
 
     <key>StandardOutPath</key>
-    <string>/tmp/com.rockwellgroup.LAB.out.log</string>
+    <string>/tmp/com.COMPANY.PROJECT.out.log</string>
     <key>StandardErrorPath</key>
-    <string>/tmp/com.rockwellgroup.LAB.err.log</string>
+    <string>/tmp/com.COMPANY.PROJECT.err.log</string>
 
     <key>ProcessType</key>
     <string>Interactive</string>
